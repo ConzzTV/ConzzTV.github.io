@@ -1,2 +1,5 @@
-# ConzzTV.github.io
+# Ups...
+An dieser Seite wird anscheinend aktuell gebaut...
+Schau vielleicht einfach später noch mal vorbei ;)
+
 Conzz

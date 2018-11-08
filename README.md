@@ -1,5 +1,6 @@
-# Ups...
-An dieser Seite wird anscheinend aktuell gebaut...
+# Baustelle
+Diese Seite ist eine # Baustelle
+lel
 Schau vielleicht einfach später noch mal vorbei ;)
 
 Conzz

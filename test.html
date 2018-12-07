@@ -17,6 +17,107 @@ body {
 }
 </style>
 
+<!--Das hier drunter ist für das Link-Button-Design-->
+
+<style type="text/css">
+.LinkButton {
+	background-color:#212121;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff0000;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.LinkButton:hover {
+	background-color:#ff0000;
+	color:#000000;
+}
+.LinkButton:active {
+	position:relative;
+	top:2px;
+}
+
+</style>
+
+<!--Das hier drunter ist für das Link-Button_klein-Design-->
+
+<style type="text/css">
+.LinkButton_klein {
+	background-color:#212121;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff0000;
+	font-family:Verdana;
+	font-size:11px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.LinkButton_klein:hover {
+	background-color:#ff0000;
+	color:#000000;
+}
+.LinkButton_klein:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+
+<!--das hier drunter ist für das Hover-Dropdown-->
+
+<style type="text/css">
+.dropdown_hover {
+  position: relative;
+  background-color:#212121;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown_hover:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<!--das hier drunter ist für das Klick-Dropdown-->
+
+<style type="text/css">
+.dropdown_klick {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #212121;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown_klick:active .dropdown-content {
+  display: block;
+}
+</style>
+
 <link rel="icon" type="image/png" href="images/Logo.png">
 
 <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -38,6 +139,13 @@ function popup (url) {
 
 <p>langer Text......f..f..fsdfsioidjfogiyjfgps9erugpowaesrughoseurghsporuhprghbrtu9ehrgbuhrztsprgusherwushr9ezt09serz09ezghghghghghghghghghghghs0e7rrrzgpyf9dhsgy0d8345678nbgtz79s7z
 <br>oa8uthoer8s7gz0ts8e7rt0esruhß9p7ugt89oiiiiiiiiiiiiiiiiiiiizaywrp999999999eds0rw3gh94szty0r87gzr0897</br></p>
+
+<div class="dropdown_hover" class="LinkButton">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
+</div> 
 
 </font>
 

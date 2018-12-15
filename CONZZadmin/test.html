@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<html lang="de-DE">
+
+<meta charset="utf-8"/>
+
+<title>Conzz - Test</title>
+
+<style type="text/css">
+
+body {
+    background-color: #000000;
+}
+</style>
+
+<!--Das hier drunter ist für das Link-Button-Design-->
+
+<style type="text/css">
+.LinkButton {
+	background-color:#212121;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff0000;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.LinkButton:hover {
+	background-color:#ff0000;
+	color:#000000;
+}
+.LinkButton:active {
+	position:relative;
+	top:2px;
+}
+
+</style>
+
+<style type="text/css">
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+</style>
+
+<link rel="icon" type="image/png" href="images/Logo.png">
+
+<meta name="description" content="Die Test-Webseite für ... naja ... Tests eben!">
+
+<script>
+function popup (url) {
+   fenster = window.open(url, "Fenster", "width=600,height=400,status=no,scrollbars=yes");
+   fenster.focus();
+}
+</script>
+
+<script type="text/javascript">
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<font color="red" face="Verdana, sans-serif">
+
+ <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div> 
+
+</font>
+
+</body>

@@ -10,7 +10,7 @@
 
 <title>ConzzAdmin - Downloads</title>
 
-<!--Das hier drunter ist für das LinkButton-Design-->
+<!--Das hier drunter ist für das Link-Button-Design-->
 
 <style type="text/css">
 .LinkButton {
@@ -33,6 +33,36 @@
 .LinkButton:active {
 	position:relative;
 	top:2px;
+}
+</style>
+
+<!--Das hier drunter ist für die öffentlich-div-->
+
+<style type="text/css">
+.öffentlich-div {
+	background-color:#cc0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+</style>
+
+<!--Das hier drunter ist für die admin-div-->
+
+<style type="text/css">
+.admin-div {
+	background-color:#333;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff0000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
 }
 </style>
 
@@ -60,6 +90,12 @@ function popup (url) {
 
 <font color="red" face="Verdana, sans-serif" id="Oben">
 
+<!--alle Downloads der öffentlichen Seiten-->
+
+<div class="öffentlich-div">
+
+<p>Öffentliche Seiten</p>
+
 <a href="https://conzztv.github.io/index.html" download class="LinkButton">index.html</a>
 
 <a href="https://conzztv.github.io/CONZZwebseite.html" download class="LinkButton">CONZZwebseite.html</a>
@@ -71,6 +107,18 @@ function popup (url) {
 <a href="https://conzztv.github.io/test.html" download class="LinkButton">test.html</a>
 
 <a href="https://conzztv.github.io/test-mobil.html" download class="LinkButton">test-mobil.html</a>
+
+</div>
+
+<!--alle Downloads der öffentlichen Seiten-->
+
+<div class="admin-div">
+
+<p>Admin-Seiten</p>
+
+<a href="https://conzztv.github.io/CONZZadmin/downloads.html" download class="LinkButton">downloads.html</a>
+
+</div>
 
 </font>
 

@@ -6,7 +6,7 @@
 
 <meta charset="utf-8"/>
 
-<title>Schule</title>
+<title>Bereits erteilte Strafen</title>
 
 <link rel="icon" type="image/png" href="https://conzztv.github.io/images/Logo.png">
 
@@ -35,6 +35,8 @@
 	top:1px;
 }
 
+<!--Das hier drunter ist für das Link-Button_klein-Design-->
+
 .LinkButton_klein {
 	background-color:#cccccc;
 	-moz-border-radius:28px;
@@ -56,6 +58,20 @@
 	position:relative;
 	top:1px;
 }
+
+.LinkButton_withoutfunction {
+	background-color:#cccccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 31px;
+	text-decoration:none;
+}
 </style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -66,12 +82,29 @@
 
 <font face="Verdana, sans-serif" id="Oben">
 
-<p>Hier kommt ihr zum Stunden- und Vertretungsplan und zu den Regeln im Klassenchat.</p>
+<h2>Bereits erteilte Strafen</h2>
 
-<ul>
+<p>Hier werden alle bereits erteilten Strafen aufgelistet.</p>
 
-<li><a href="schule/stundenplan.html" class="LinkButton"><LinkButton>Stundenplan & Vertretungsplan</LinkButton></a></li>
+<div class="LinkButton_withoutfunction">
 
-<li><a href="schule/regeln_chat.html" class="LinkButton"><LinkButton>Regeln im Klassenchat</LinkButton></a></li>
+<h3>Constantin</h3>
 
-</ul>
+<table border="1px">
+  <tr>
+    <th scope="col">Zeitpunkt der Verurteilung</th>
+    <th scope="col">Ursache [Kategorie]</th>
+    <th scope="col">Länge der Strafe</th>
+  </tr>
+  <tr>
+    <td>08.02.2019 20:24 Uhr</td>
+    <td>Absenden von irrelevaten Bildern [Kategorie 1]</td>
+    <td>{Strafe noch akiv}</td>
+  </tr>
+</table>
+
+</div>
+
+</font>
+</body>
+</html>

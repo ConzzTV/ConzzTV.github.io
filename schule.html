@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Schule</title>
+<script src="https://cdn.statically.io/gh/zenorocha/clipboard.js/v2.0.4/dist/clipboard.min.js"></script>
 <link rel="icon" type="image/png" href="https://conzztv.github.io/images/Logo.png">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 <!--Das hier drunter ist für das Link-Button-Design-->
@@ -54,7 +55,20 @@
 </head><body>
 <font face="Ubuntu, sans-serif" id="Oben">
 <ul>
-<li><a href="https://boellgymnasium.de/index.php/component/content/article/37-informationen/468-2020-03-13-16-48-31" class="LinkButton"><LinkButton>Aufgaben online</LinkButton></a><p>(bis zur Freischaltung nur der Infotext)</li>
+<li><a href="https://wolke.tulix.de/s/Bjz38EoJXfWgcxz" class="LinkButton"><LinkButton>Aufgaben online</LinkButton></a>
+<button id="btn" data-clipboard-text="y3trLyorudA">Passwort kopieren</button></li>
+<script>
+	var btn = document.getElementById('btn');
+	var clipboard = new ClipboardJS(btn);
+
+	clipboard.on('success', function(e) {
+		console.log(e);
+	});
+
+	clipboard.on('error', function(e) {
+		console.log(e);
+	});
+</script>
 <li><a href="schule/stundenplan.html" class="LinkButton"><LinkButton>Stundenplan & Vertretungsplan</LinkButton></a></li>
 <li><a href="https://www.boellgymnasium.de/attachments/article/403/Monatsplanung%202019_2020%2017022020%20web.pdf" class="LinkButton"><LinkButton>Terminplan Schuljahr 2019/2020 Böll</LinkButton></a></li>
 <li><a href="schule/kontrollen.html" class="LinkButton"><LinkButton>Liste der Kontrollen</LinkButton></a></li>

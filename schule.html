@@ -28,28 +28,24 @@
 	top:1px;
 }
 
-.LinkButton_klein {
-	background-color:#cccccc;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
+.Link {color: #ff0000;}
+
+.dl-button {
+	background-color:#999999;
+	border-radius:3px;
+	border:1px solid #f2f2f2;
 	display:inline-block;
 	cursor:pointer;
-	color:#ff0000;
-	font-size:11px;
-	padding:16px 31px;
+	color:#ffffff;
+	font-family:Ubuntu;
+	font-size:15px;
+	padding:9px 23px;
 	text-decoration:none;
 }
-.LinkButton_klein:hover {
-	background-color:#ff0000;
-	color:#000000;
-}
-.LinkButton_klein:active {
+.dl-button:active {
 	position:relative;
-	top:1px;
+	background-color:#bfbfbf;
 }
-
-.Link {color: #ff0000;}
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 </head><body>
@@ -69,6 +65,12 @@
 		console.log(e);
 	});
 </script><br>
+<details><summary>Corona-Warn-App (offiziell)</summary><img src="images/corona_app.jpg" height="30px"><br>
+<a href="https://apps.apple.com/de/app/corona-warn-app/id1512595757" class="dl-button" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1200px-Apple_logo_white.svg.png" height="15px">&nbsp;&nbsp;iOS (Apple)</a>
+<a href="https://play.google.com/store/apps/details?id=de.rki.coronawarnapp" class="dl-button" target="_blank">
+<img src="https://lh3.googleusercontent.com/4LoMC6Ef0zE9-ivEnjkAesQctC_b7GhUbxLFFAr_nJDbsQ_CdaeoHqsVX_Sx_CebL4A=w1200-h630-p-k-no-nu" height="15px">&nbsp;&nbsp;Android (Google)</a></p></details><br>
+
 <li><a href="https://www.schulportal-thueringen.de/tsc-login" class="LinkButton"><LinkButton>Thüringer Schulcloud</LinkButton></a></li><br>
 <li><a href="schule/umfrage.html" class="LinkButton" target="_blank"><LinkButton>a little Umfrage</LinkButton></a></li>
 <li><a href="schule/stundenplan.html" class="LinkButton" target="_blank"><LinkButton>Stundenplan & Vertretungsplan</LinkButton></a></li>

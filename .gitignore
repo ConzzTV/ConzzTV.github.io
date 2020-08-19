@@ -1,9 +1,8 @@
 
-schule/stundenplan/~$-woche-a.docx
-schule/stundenplan/~$-woche-b.docx
-.sync/StreamsList
-.sync/ID
-.sync/root_acl_entry
-.sync/IgnoreList
-schule/stundenplan/~$oche-a.docx
+.sync/*
+*~$oche-*
 *.xcf
+*-alt.*
+*-neu.*
+*-du.*
+schule/images/alt/*

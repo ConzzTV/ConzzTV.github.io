@@ -1,61 +1,31 @@
 <html lang="de-DE"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Stundenplan</title>
-<link rel="icon" type="image/png" href="https://conzztv.github.io/images/Logo.png">
+<meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<!--Das hier drunter ist für das Link-Button-Design-->
-<style type="text/css">
-.LinkButton {
-	background-color:#cccccc;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ff0000;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.LinkButton:hover {
-	background-color:#ff0000;
-	color:#000000;
-}
-.LinkButton:active {
-	position:relative;
-	top:1px;
-}
-<!--Das hier drunter ist für das Link-Button_klein-Design-->
-
-.LinkButton_klein {
-	background-color:#cccccc;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ff0000;
-	font-size:11px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.LinkButton_klein:hover {
-	background-color:#ff0000;
-	color:#000000;
-}
-.LinkButton_klein:active {
-	position:relative;
-	top:1px;
-}
-</style>
+<link rel="icon" href="../images/icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-</head><body>
-<font face="Ubuntu, sans-serif" id="Oben">
-<ul>
-<li><a href="woche-a.pdf" target="_blank" class="LinkButton"><LinkButton>Stundenplan Woche A</LinkButton></a></li>
-<li><a href="woche-b.pdf" target="_blank" class="LinkButton"><LinkButton>Stundenplan Woche B</LinkButton></a></li>
-<li><a href="" target="_blank" class="LinkButton"><LinkButton>Vertretungsplan</LinkButton></a></li>
-<br><br><li><a href="alt.html" class="LinkButton"><LinkButton>frühere Stundenpläne</LinkButton></a></li> 
-</ul>
-</font>
+<title>Stundenplan</title>
+<link rel="stylesheet" href="../schule-fixed.css">
+<link rel="stylesheet" href="../schule-responsive.css">
+</head>
+<body>
+<!--PORTRAIT-NAV-->
+<table width="100%" height="66%" border="0" align="center" cellpadding="0" cellspacing="0" class="portrait">
+  <tr>
+    <td><a href="../na.html"><img src="../images/stundenplan-a.png" class="cell-background"><br><span>Woche A</span></a></td>
+    <td><a href="../na.html"><img src="../images/stundenplan-b.png" class="cell-background"><br><span>Woche B</span></a></td>
+  </tr>
+  <tr>
+    <td><a href="../na.html" target="blank"><img src="../images/vertretungsplan.png" class="cell-background"><br><span>Vertretungsplan</span></a></td>
+    <td><a href="alt.html"><img src="../images/stundenplan-alt.png" class="cell-background"><br><span>frühere Stundenpläne</span></a></td>
+  </tr>
+</table>
+<!--LANDSCAPE-NAV-->    
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="landscape">
+  <tr>
+    <td><a href="../na.html"><img src="../images/stundenplan-a.png" class="cell-background"><br><span>Woche A</span></a></td>
+    <td><a href="../na.html"><img src="../images/stundenplan-b.png" class="cell-background"><br><span>Woche B</span></a></td>
+    <td><a href="../na.html" target="blank"><img src="../images/vertretungsplan.png" class="cell-background"><br><span>Vertretungsplan</span></a></td>
+    <td><a href="alt.html"><img src="../images/stundenplan-alt.png" class="cell-background"><br><span>frühere Stundenpläne</span></a></td>
+  </tr>
+</table>
 </body></html>

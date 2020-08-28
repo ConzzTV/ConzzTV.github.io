@@ -1,0 +1,123 @@
+/* Geräte mit allen Koordinaten bis 800px (z.B. iPhone 6/7/8) */
+@media screen and (max-height:800px) and (max-width:800px) {
+    span {font-size:110%}
+    button {font-size:90%}
+    @media screen and (orientation:portrait) {
+        .landscape {display:none}
+        .cell-background {
+            width:80%;
+            max-height:80%;
+        }
+        .cell-background:hover {
+            width:90%;
+            max-height:90%;
+        }
+        tr {height:25%}
+        td {width:50%}
+    }
+    @media screen and (orientation:landscape) {
+        .portrait {display:none}
+        .cell-background {
+            width:50%;
+            max-height:70%;
+        }
+        .cell-background:hover {
+            width:60%;
+            max-height:85%;
+        }
+        tr {height:50%}
+        td {width:25%}
+    }
+}
+/* Geräte mit der größeren Koordinate zwischen 801px & 1000px (z.B. iPhone X) */
+@media screen and (min-height:801px) and (max-height:1000px) and (orientation:portrait) {
+    span {font-size:110%}
+    button {font-size:80%}
+    .cell-background {
+        width:70%;
+        max-height:70%;
+    }
+    .cell-background:hover {
+        width:80%;
+        max-height:80%;
+    }
+    .landscape {display:none}
+    tr {height:25%}
+    td {width:50%}
+}
+@media screen and (min-width:801px) and (max-width:1000px) and (orientation:landscape) {
+    span {font-size:110%}
+    .cell-background {
+    width:60%;
+    max-height:60%;
+    }
+    .cell-background:hover {
+    width:70%;
+    max-height:70%;
+    }
+    .portrait {display:none}
+    tr {height:50%}
+    td {width:25%}
+}
+/* Geräte mit der größeren Koordinate zwischen 1001px & 1400px (z.B. iPad 10.2") */
+@media screen and (min-height:1001px) and (max-height:1400px) and (orientation:portrait) {
+    span {font-size:160%}
+    button {font-size:140%}
+    .cell-background {
+        width:60%;
+        max-height:80%;
+    }
+    .cell-background:hover {
+        width:70%;
+        max-height:90%;
+    }
+    .landscape {display:none}
+    tr {height:25%}
+    td {width:50%}
+}
+@media screen and (min-width:1001px) and (max-width:1400px) and (orientation:landscape) {
+    span {font-size:160%}
+    button {font-size:140%}
+    .cell-background {
+        width:80%;
+        max-height:80%;
+    }
+    .cell-background:hover {
+        width:90%;
+        max-height:90%;
+    }
+    .portrait {display:none}
+    tr {height:50%}
+    td {width:25%}
+}
+/* Geräte mit der größeren Koordinate ab 1401px */
+@media screen and (min-height:1401px) and (orientation:portrait) {
+    span {font-size:140%}
+    button {font-size:110%}
+    .cell-background {
+        width:70%;
+        max-height:80%;
+    }
+    .cell-background:hover {
+        width:80%;
+        max-height:90%;
+    }
+    .landscape {display:none}
+    tr {height:25%}
+    td {width:50%}
+}
+@media screen and (min-width:1401px) and (orientation:landscape) {
+    span {font-size:140%}
+    button {font-size:110%}
+    .cell-background {
+        width:60%;
+        max-height:75%;
+    }
+    .cell-background:hover {
+        width:70%;
+        max-height:85%;
+    }
+    .portrait {display:none}
+    tr {height:50%}
+    td {width:25%}
+}

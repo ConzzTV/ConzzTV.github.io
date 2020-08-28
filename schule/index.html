@@ -1,83 +1,70 @@
-<!DOCTYPE html><html lang="de-DE">
-<head>
-<meta charset="utf-8"/>
-<title>Schule</title>
-<script src="https://cdn.statically.io/gh/zenorocha/clipboard.js/v2.0.4/dist/clipboard.min.js"></script>
-<link rel="icon" type="image/png" href="https://conzztv.github.io/images/Logo.png">
+<html lang="de-DE"><head>
+<meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<!--Das hier drunter ist für das Link-Button-Design-->
-<style type="text/css">
-.LinkButton {
-	background-color:#cccccc;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ff0000;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.LinkButton:hover {
-	background-color:#ff0000;
-	color:#000000;
-}
-.LinkButton:active {
-	position:relative;
-	top:1px;
-}
-
-.Link {color: #ff0000;}
-
-.dl-button {
-	background-color:#999999;
-	border-radius:3px;
-	border:1px solid #f2f2f2;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Ubuntu;
-	font-size:15px;
-	padding:9px 23px;
-	text-decoration:none;
-}
-.dl-button:active {
-	position:relative;
-	background-color:#bfbfbf;
-}
-</style>
+<script src="https://cdn.statically.io/gh/zenorocha/clipboard.js/v2.0.4/dist/clipboard.min.js"></script>
+<link rel="icon" href="images/icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-</head><body>
-<font face="Ubuntu, sans-serif" id="Oben">
-<ul>
-<li><a href="https://wolke.tulix.de/s/Bjz38EoJXfWgcxz" class="LinkButton">Aufgaben online</a>
-<button id="btn" data-clipboard-text="y3trLyorudA">Passwort kopieren</button></li>
-<script>
-	var btn = document.getElementById('btn');
-	var clipboard = new ClipboardJS(btn);
+<title>Schule</title>
+<link rel="stylesheet" href="schule-fixed.css">
+<link rel="stylesheet" href="schule-responsive.css">
+</head>
+<body>
+<!--PORTRAIT-NAV-->
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="portrait">
+  <tr>
+    <td><a href="https://wolke.tulix.de/s/Bjz38EoJXfWgcxz" target="blank"><img src="images/tulix.png" class="cell-background"><br><span>tulix</span><br><br></a><button id="btn" data-clipboard-text="y3trLyorudA">Passwort kopieren</button></td>
+      <script>
+	   var btn = document.getElementById('btn');
+	   var clipboard = new ClipboardJS(btn);
 
-	clipboard.on('success', function(e) {
+	   clipboard.on('success', function(e) {
 		console.log(e);
-	});
+	   });
 
-	clipboard.on('error', function(e) {
+	   clipboard.on('error', function(e) {
 		console.log(e);
-	});
-</script><br>
-<details><summary>Corona-Warn-App (offiziell)</summary><a href="https://www.bundesgesundheitsministerium.de/coronavirus.html" target="_blank">
-<img src="images/corona_app.png" height="30px"><br>
-<a href="https://apps.apple.com/de/app/corona-warn-app/id1512595757" class="dl-button" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1200px-Apple_logo_white.svg.png" height="15px">&nbsp;&nbsp;iOS (Apple)</a>
-<a href="https://play.google.com/store/apps/details?id=de.rki.coronawarnapp" class="dl-button" target="_blank">
-<img src="https://lh3.googleusercontent.com/4LoMC6Ef0zE9-ivEnjkAesQctC_b7GhUbxLFFAr_nJDbsQ_CdaeoHqsVX_Sx_CebL4A=w1200-h630-p-k-no-nu" height="15px">&nbsp;&nbsp;Android (Google)</a></p></details><br>
+	   });
+      </script>
+    <td><a href="https://www.schulportal-thueringen.de/tsc-login" target="blank"><img src="images/tsc.png" class="cell-background"><br><span>Thüringer Schulcloud</span></a></td>
+  </tr>
+  <tr>
+    <td><a href="stundenplan"><img src="images/stundenplan.png" class="cell-background"><br><span>Stundenplan</span></a></td>
+    <td><a href="na.html"><img src="images/terminplan.png" class="cell-background"><br><span>Terminplan</span></a></td>
+  </tr>
+  <tr>
+    <td><a href="kontrollen.html"><img src="images/kontrollen.png" class="cell-background"><br><span>Kontrollenliste</span></a></td>
+    <td><a href="ipad.html"><img src="images/ipad.png" class="cell-background"><br><span>iPad-Informationen</span></a></td>
+  </tr>
+  <tr>
+    <td><a href="corona.html"><img src="images/corona_app.png" class="cell-background"><br><span>Corona-Warn-App</span></a></td>
+    <td><a href="https://boellgymnasium.de" target="blank"><img src="images/hbg-1.png" class="cell-background"><br><span>Schulwebseite</span></a></td>
+  </tr>
+</table>
+<!--LANDSCAPE-NAV-->
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="landscape">
+  <tr>
+    <td><a href="https://wolke.tulix.de/s/Bjz38EoJXfWgcxz" target="blank"><img src="images/tulix.png" class="cell-background"><br><span>tulix</span><br><br></a><button id="btn" data-clipboard-text="y3trLyorudA">Passwort kopieren</button></td>
+      <script>
+	   var btn = document.getElementById('btn');
+	   var clipboard = new ClipboardJS(btn);
 
-<li><a href="https://www.schulportal-thueringen.de/tsc-login" class="LinkButton">Thüringer Schulcloud</a></li><br>
-<li><a href="umfrage.html" class="LinkButton" target="_blank">a little Umfrage</a></li>
-<li><a href="stundenplan/" class="LinkButton" target="_blank">Stundenplan & Vertretungsplan</a></li>
-<li><a href="" class="LinkButton">Terminplan Schuljahr 2019/2020 Böll</a></li>
-<li><a href="kontrollen.html" class="LinkButton">Liste der Kontrollen</a></li>
-</ul><br><a href="https://boellgymnasium.de" class="Link" style="text-indent:50px;"><p>Zur Schulwebseite</p></a>
+	   clipboard.on('success', function(e) {
+		console.log(e);
+	   });
 
-</font>
+	   clipboard.on('error', function(e) {
+		console.log(e);
+	   });
+      </script>
+    <td><a href="https://www.schulportal-thueringen.de/tsc-login" target="blank"><img src="images/tsc.png" class="cell-background"><br><span>Thüringer Schulcloud</span></a></td>
+    <td><a href="stundenplan"><img src="images/stundenplan.png" class="cell-background"><br><span>Stundenplan</span></a></td>
+    <td><a href="na.html"><img src="images/terminplan.png" class="cell-background"><br><span>Terminplan</span></a></td>
+  </tr>
+  <tr>
+    <td><a href="kontrollen.html"><img src="images/kontrollen.png" class="cell-background"><br><span>Kontrollenliste</span></a></td>
+    <td><a href="ipad.html"><img src="images/ipad.png" class="cell-background"><br><span>iPad-Informationen</span></a></td>
+    <td><a href="corona.html"><img src="images/corona_app.png" class="cell-background"><br><span>Corona-Warn-App</span></a></td>
+    <td><a href="https://boellgymnasium.de" target="blank"><img src="images/hbg-1.png" class="cell-background"><br><span>Schulwebseite</span></a></td>
+  </tr>
+</table>
 </body></html>

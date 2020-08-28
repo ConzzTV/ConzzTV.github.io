@@ -1,0 +1,49 @@
+body {background-color:#cccccc; font-family:Ubuntu;}
+a {text-decoration:none;}
+td {text-align:center; position:relative;}
+button {
+    display:inline-block;
+    font-family:Ubuntu;
+    font-weight:bold;
+    background-color:#666;
+    color:#fff;
+    padding:6px;
+    border:none;
+    border-radius:5px;
+}
+button:active {color:#cccccc; transition:0.1s;}
+.cell-background, button {transition:0.4s; opacity:75%;}
+.cell-background:hover, button:hover {opacity:100%; filter:drop-shadow(#666 0 4px 4px);}
+details {
+    display:inline-block;
+    padding:6;
+    border-radius:5px;
+    font-size:110%;
+}
+details > div {text-indent:19;}
+br {font-size:10%;}
+span {
+    border:none;
+    color:#000;
+    font-weight:Bold;
+}
+div {display:inline-block;}
+.f-de {background-color:#ff0000; color:#fff;}
+.f-ma {background-color:#0000ff; color:#fff;}
+.f-eng {background-color:#00ff00; color:#000;}
+.f-frz {background-color:#ffd0d0; color:#000;}
+.f-spr {background-color:#ff9100; color:#000;}
+.f-sozi {background-color:#666666; color:#fff;}
+.f-et {background-color:#fff000; color:#000;}
+.f-ge {background-color:#ad7100; color:#fff;}
+.f-ch {background-color:#ff00dd; color:#fff;}
+.f-bio {background-color:#137500; color:#fff;}
+.f-ph {background-color:#00b9ff; color:#000;}
+.f-nt {background-color:#009a92; color:#fff;}
+.f-info {background-color:#2a246c; color:#fff;}
+.f-gewi {}
+.f-dg {}
+.f-geo {background-color:#cb00ff; color:#fff;}
+.f-mu {background-color:#fff; color:#000;}
+.f-sp {background-color:#8c8c8c; color:#000;}
+.f-ku {background-color:#ff60e3; color:#000;}

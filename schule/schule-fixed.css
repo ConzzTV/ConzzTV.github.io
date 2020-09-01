@@ -1,6 +1,8 @@
 body {background-color:#cccccc; font-family:Ubuntu;}
 a {text-decoration:none;}
 td {text-align:center; position:relative;}
+.klabs {line-height:10%}
+.infotext {font-size:80%}
 button {
     display:inline-block;
     font-family:Ubuntu;
@@ -21,7 +23,7 @@ details {
     font-size:110%;
 }
 details > div {text-indent:19;}
-br {font-size:10%;}
+br {line-height:10%;}
 span {
     border:none;
     color:#000;

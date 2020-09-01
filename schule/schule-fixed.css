@@ -1,7 +1,6 @@
 body {background-color:#cccccc; font-family:Ubuntu;}
 a {text-decoration:none;}
 td {text-align:center; position:relative;}
-.klabs {line-height:10%}
 .infotext {font-size:80%}
 button {
     display:inline-block;

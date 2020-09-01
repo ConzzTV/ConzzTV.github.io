@@ -92,6 +92,9 @@
 }
 /* Geräte mit der größeren Koordinate ab 1401px */
 @media screen and (min-height:1401px) and (orientation:portrait) {
+    .infotext {font-size:100%}
+    h2 {font-size:170%}
+    div {font-size:120%}
     span {font-size:140%}
     button {font-size:110%}
     .cell-background {
@@ -107,6 +110,9 @@
     td {width:50%}
 }
 @media screen and (min-width:1401px) and (orientation:landscape) {
+    .infotext {font-size:100%}
+    h2 {font-size:170%}
+    div {font-size:120%}
     span {font-size:140%}
     button {font-size:110%}
     .cell-background {

@@ -112,7 +112,7 @@
 @media screen and (min-width:1401px) and (orientation:landscape) {
     .infotext {font-size:100%}
     h2 {font-size:170%}
-    div {font-size:120%}
+    div {font-size:100%}
     span {font-size:140%}
     button {font-size:110%}
     .cell-background {

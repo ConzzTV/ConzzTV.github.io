@@ -1,8 +1,9 @@
 
 .sync/*
-*~$oche-*
 *.xcf
 *-alt.*
 *-neu.*
 *zdu-*
 schule/images/alt/*
+*~
+~*
